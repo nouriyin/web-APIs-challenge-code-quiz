@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    display: flex; /* Flex container to display the child elements as flex with space between and wrap */
+    display: flex; 
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
@@ -28,14 +28,14 @@ header {
     background-color: white;
     text-decoration: none;
     border: 0;
-    outline: 0; /* Remove border around button */
-    color: blueviolet;
+    outline: 0; 
+    color: rgb(55, 35, 73);
     font-family: 'Merienda';font-size: 20px;
 }
 
 .btnHeader:hover {
 
-    background-color: pink;
+    background-color: rgb(87, 56, 61);
     
   
     
@@ -44,8 +44,8 @@ header {
 .btn {
     border-radius: 12px;
     border: 0;
-    outline: 0; /* Remove border around button */
-    background-color: purple;
+    outline: 0;
+    background-color: rgb(88, 69, 88);
     color: white;
     font-family: 'Merienda';font-size: 10px;
 }
@@ -118,7 +118,7 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: rgb(93, 52, 93);
     color: white;
     font-family: 'Merienda';font-size: 15px;
 }
